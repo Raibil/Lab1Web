@@ -7,7 +7,7 @@ Deklarasi <!DOCTYPE html> berfungsi untuk menyatakan bahwa dokumen HTML mengguna
 
 Contoh:
 
-<!DOCTYPE html>
+"<!DOCTYPE html>"
 
 Deklarasi tersebut membantu browser mengetahui standar dokumen HTML yang digunakan.
 
@@ -17,19 +17,19 @@ Tag adalah penanda yang digunakan dalam HTML untuk menunjukkan suatu bagian atau
 
 Contoh:
 
-<p>
+"<p>"
 
 Elemen merupakan bagian HTML yang umumnya terdiri dari tag pembuka, isi, dan tag penutup.
 
 Contoh:
 
-<p>Ini adalah sebuah paragraf.</p>
+"<p>Ini adalah sebuah paragraf.</p>"
 
 Atribut merupakan informasi tambahan yang diberikan kepada sebuah elemen. Atribut biasanya ditulis pada tag pembuka.
 
 Contoh:
 
-<a href="https://www.google.com">Google</a>
+"<a href="https://www.google.com">Google</a>"
 
 Pada contoh tersebut, href merupakan atribut yang menentukan tujuan hyperlink.
 
@@ -45,8 +45,8 @@ Tag <p> digunakan untuk membuat sebuah paragraf.
 
 Contoh:
 
-<p>Ini adalah paragraf pertama.</p>
-<p>Ini adalah paragraf kedua.</p>
+"<p>Ini adalah paragraf pertama.</p>"
+"<p>Ini adalah paragraf kedua.</p>"
 
 Sedangkan tag <br> digunakan untuk membuat perpindahan baris.
 
@@ -63,7 +63,7 @@ Atribut href digunakan untuk menentukan alamat atau tujuan dari sebuah hyperlink
 
 Contoh:
 
-<a href="https://www.google.com">Google</a>
+"<a href="https://www.google.com">Google</a>"
 
 Ketika teks Google diklik, browser akan menuju alamat yang terdapat pada atribut href.
 
@@ -71,7 +71,7 @@ href juga dapat digunakan untuk menghubungkan halaman dalam satu website.
 
 Contoh:
 
-<a href="halaman2.html">Halaman 2</a>
+"<a href="halaman2.html">Halaman 2</a>"
 
 # 5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?
 
@@ -79,7 +79,7 @@ Hyperlink internal adalah hyperlink yang mengarah ke halaman lain yang masih ber
 
 Contoh:
 
-<a href="halaman2.html">Halaman 2</a>
+"<a href="halaman2.html">Halaman 2</a>"
 
 Pada contoh tersebut, halaman2.html merupakan halaman lain dalam proyek HTML yang sama.
 
@@ -87,7 +87,7 @@ Sedangkan hyperlink eksternal adalah hyperlink yang mengarah ke website atau hal
 
 Contoh:
 
-<a href="https://www.google.com">Google</a>
+"<a href="https://www.google.com">Google</a>"
 
 Jadi, perbedaannya terletak pada tujuan hyperlink. Hyperlink internal mengarah ke halaman dalam proyek yang sama, sedangkan hyperlink eksternal mengarah ke website lain.
 
@@ -97,7 +97,7 @@ Atribut src digunakan untuk menentukan lokasi atau path file gambar yang akan di
 
 Contoh:
 
-<img src="images/profil.jpg">
+"<img src="images/profil.jpg">"
 
 Pada contoh tersebut, browser akan mencari gambar profil.jpg di dalam folder images.
 
@@ -105,7 +105,7 @@ Sedangkan atribut alt digunakan untuk memberikan deskripsi atau teks alternatif 
 
 Contoh:
 
-<img src="images/profil.jpg" alt="Foto profil mahasiswa">
+"<img src="images/profil.jpg" alt="Foto profil mahasiswa">"
 
 Jadi:
 
@@ -118,21 +118,21 @@ Tag <ul> digunakan untuk membuat unordered list, yaitu daftar yang tidak menggun
 
 Contoh:
 
-<ul>
+"<ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
-</ul>
+</ul>"
 
 Sedangkan <ol> digunakan untuk membuat ordered list, yaitu daftar yang memiliki urutan.
 
 Contoh:
 
-<ol>
+"<ol>
     <li>Belajar HTML</li>
     <li>Belajar CSS</li>
     <li>Belajar JavaScript</li>
-</ol>
+</ol>"
 
 Dengan demikian:
 
@@ -153,11 +153,11 @@ Lab1Web/
 
 Maka penulisan yang benar adalah:
 
-<img src="images/profil.jpg">
+"<img src="images/profil.jpg">"
 
 Jika ditulis:
 
-<img src="gambar/profil.jpg">
+"<img src="gambar/profil.jpg">"
 
 padahal folder gambar tidak tersedia, maka browser tidak dapat menemukan file tersebut.
 
@@ -182,13 +182,13 @@ Penggunaan heading secara terstruktur membantu menyusun isi halaman berdasarkan 
 
 Contoh:
 
-<h1>Profil Mahasiswa</h1>
+"<h1>Profil Mahasiswa</h1>"
 
-<h2>Data Diri</h2>
+"<h2>Data Diri</h2>"
 
-<h2>Keahlian</h2>
+"<h2>Keahlian</h2>"
 
-<h3>Keahlian Pemrograman</h3>
+"<h3>Keahlian Pemrograman</h3>"
 
 Dengan struktur tersebut, pembagian informasi pada halaman menjadi lebih terorganisasi.
 
@@ -201,7 +201,7 @@ Komentar tidak ditampilkan pada halaman web ketika dokumen HTML dibuka menggunak
 Contoh:
 
 <!-- Bagian Profil Mahasiswa -->
-<h2>Profil Mahasiswa</h2>
+"<h2>Profil Mahasiswa</h2>"
 
 Komentar dapat membantu programmer memahami bagian-bagian kode dan memberikan informasi tambahan mengenai kode yang dibuat.
 
